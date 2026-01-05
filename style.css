@@ -237,8 +237,7 @@ nav a:hover {
     }
 
     nav a {
-        margin:0;
-        padding:0;
+        margin-left: 0;
     }
 
     .hero {
