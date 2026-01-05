@@ -1,0 +1,12 @@
+/portfolio
+│── index.html        → Home (Executive overview)
+│── about.html        → Professional identity & journey
+│── experience.html   → Role-based responsibilities (deep)
+│── projects.html     → Flagship projects (architecture view)
+│── skills.html       → Skills + tools (visual, grouped)
+│── certifications.html
+│── contact.html
+│── assets/
+│   └── gradients, icons
+│── style.css         → Shared premium gradient theme
+│── script.js         → Navigation & interactions
