@@ -271,3 +271,17 @@ nav a:hover {
         height: 300px;
     }
 }
+
+/* ================= Info Cards ================= */
+
+@media (max-width: 1024px) {
+    section .info-card {
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    section .info-card {
+        padding: 26px;
+    }
+}
