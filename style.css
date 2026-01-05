@@ -31,6 +31,7 @@ body {
 .logo {
     font-size: 1.6rem;
     font-weight: bold;
+    align-items: center;
 }
 
 .logo span {
@@ -271,3 +272,4 @@ nav a:hover {
         height: 300px;
     }
 }
+
