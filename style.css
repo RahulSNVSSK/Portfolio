@@ -273,6 +273,9 @@ nav a:hover {
 }
 
 /* ================= Info Cards ================= */
+section .info-card {
+    max-width: 100%;
+}
 
 @media (max-width: 1024px) {
     section .info-card {
