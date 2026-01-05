@@ -31,7 +31,6 @@ body {
 .logo {
     font-size: 1.6rem;
     font-weight: bold;
-    align-items: center;
 }
 
 .logo span {
@@ -238,7 +237,8 @@ nav a:hover {
     }
 
     nav a {
-        margin-left: 0;
+        margin:0;
+        padding:0;
     }
 
     .hero {
