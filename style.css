@@ -207,4 +207,113 @@ nav a:hover {
     color: #6f4cff;
 }
 
+/* =====================================================
+   📱 MOBILE RESPONSIVENESS (ONLY ADDITION)
+   ===================================================== */
+
+@media (max-width: 1024px) {
+    .hero-grid {
+        grid-template-columns: 1fr; /* STACK */
+    }
+
+    .hero-text h1 {
+        font-size: 2.4rem;
+    }
+
+    .hero-text span {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .section {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    html {
+        font-size: 16px; /* SCALE DOWN */
+    }
+
+    .nav-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+    }
+
+    nav a {
+        margin-left: 0;
+    }
+
+    .hero {
+        padding: 40px 5vw;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .cards {
+        gap: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: 15px;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-text span {
+        font-size: 1.4rem;
+    }
+
+    .profile-image-wrapper {
+        width: 220px;
+        height: 300px;
+    }
+}
+
+/* ================= Info Cards ================= */
+section .info-card {
+    max-width: 100%;
+}
+
+@media (max-width: 1024px) {
+    section .info-card {
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    section .info-card {
+        padding: 26px;
+    }
+}
+
+/* ================= MOBILE AUTO-SCALING FIX ================= */
+@media (max-width: 768px) {
+
+    .cards {
+        grid-template-columns: 1fr !important;
+    }
+
+    .info-card {
+        min-width: 0 !important;
+        width: 100% !important;
+    }
+
+    .container {
+        max-width: 100% !important;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
 
