@@ -87,7 +87,7 @@ nav a:hover {
 .profile-image-wrapper {
     width: 280px;
     height: 360px;
-    margin: 0 auto 20px auto;
+    margin: auto;
     background-color: rgba(2, 6, 23, 0.9);
     background-repeat: no-repeat;
     background-position: center top;
